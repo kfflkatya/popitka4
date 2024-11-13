@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #000;
+    background-color: #f8f8f8;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  .fon {
+    background-image: url("фон2.jpg");
+    background-size: 70%;
+    background-position: center;
+  }
+
+  .logo {
+    font-size: 40px;
+    text-align: left;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px rgb(223, 43, 154), 0 0 35px rgb(235, 163, 217), 0 0 40px rgb(240, 119, 214), 0 0 50px rgb(218, 42, 150), 0 0 75px rgb(194, 16, 143);
+}
+  nav ul {
+    list-style: none;
+    padding: 1px;
+    text-align: right;
+    margin-top: -110px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-right: 60px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+} 
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 5px rgb(252, 118, 223), 0 0 10px white, 0 0 20px rgb(223, 43, 154), 0 0 25px rgb(255, 179, 236), 0 0 30px rgb(194, 16, 143);
+}
+
+.h1 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 70px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+  
+  .form {
+    max-width: 320px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+    margin-bottom: 11%;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;  
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    background-color: #cf8cbf;
+    cursor: pointer;
+    border-radius: 0%;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 0px;
+  }
+
+  button:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1);
+    color: #fff;
+    background: #ee43e0;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    box-shadow: 0 0 5px rgb(252, 118, 223), 0 0 10px white, 0 0 25px rgb(255, 71, 209);
+  }

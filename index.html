@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Чарыкова Е.">
+    <meta name="port" content="width=device-width, initial-scale=1.0">
+    <title>Black Pearl</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="welcome-banner"><div id="heart-container"></div></div>
+    <header>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#games">MEN</a></li>
+                <li><a href="#about">WOMEN</a></li>
+                <li><a href="forma.html">SIGN IN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="content">
+            <h1 class="hidden">Welcome to our family</h1>
+            <p class="hidden">Откройте мир видеоигр с нами!</p>
+            <a href="#games" class="main-button hidden">Начать играть</a>
+        </div>
+    </section>
+
+    <section id="games">
+        <h2>Популярные игры</h2>
+        <div class="game-cards">
+            <div class="card" data-title="God of War: Ragnarok"> <!--Дата тайтл используется для того чтобы JS мог по этому значению находить и загружать нужную рецензию-->
+                <div class="game-info visible">
+                    <img src="game1.jpeg" alt="Картинка первой игры" class="game-image">
+                    <h3>God of War: Ragnarok</h3>
+                    <p>Эпичное завершение истории Кратоса в Скандинавской мифологии</p>
+                </div>
+                <div class="game-review hide">
+                </div>
+                <a href="https://store.steampowered.com/app/2322010/God_of_War_Ragnaryok/" target="_blank" class="button toggle-button">Подробнее</a>
+            </div>
+            <div class="card" data-title="Mass Effect: Legendary Edition"><!--Дата тайтл используется для того чтобы JS мог по этому значению находить и загружать нужную рецензию-->
+                <div class="game-info visible">
+                    <img src="game2.jpg" alt="Картинка второй игры" class="game-image">
+                    <h3>Mass Effect: Legendary Edition</h3>
+                    <p>Переизданная трилогия космооперы о Коммандере Шепарде</p>
+                </div>
+                <div class="game-review hide">
+                </div>
+                <a href="https://store.steampowered.com/agecheck/app/1328670/" target="_blank" class="button toggle-button">Подробнее</a>
+            </div>
+            <div class="card" data-title="Batman Arkham Knight"><!--Дата тайтл используется для того чтобы JS мог по этому значению находить и загружать нужную рецензию-->
+                <div class="game-info visible">
+                    <img src="game3.jpg" alt="Картинка третьей игры" class="game-image">
+                    <h3>Batman Arkham Knight</h3>
+                    <p>История о том как умер Бэтмен</p>
+                </div>
+                <div class="game-review hide">
+                </div>
+                <a href="https://store.steampowered.com/agecheck/app/208650/" target="_blank" class="button toggle-button">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="games">
+        <h2>Популярные игры</h2>
+        <div class="game-cards">
+            <div class="card" data-title="God of War: Ragnarok"> <!--Дата тайтл используется для того чтобы JS мог по этому значению находить и загружать нужную рецензию-->
+                <div class="game-info visible">
+                    <img src="game1.jpeg" alt="Картинка первой игры" class="game-image">
+                    <h3>God of War: Ragnarok</h3>
+                    <p>Эпичное завершение истории Кратоса в Скандинавской мифологии</p>
+                </div>
+                <div class="game-review hide">
+                </div>
+                <a href="https://store.steampowered.com/app/2322010/God_of_War_Ragnaryok/" target="_blank" class="button toggle-button">Подробнее</a>
+            </div>
+            <div class="card" data-title="Mass Effect: Legendary Edition"><!--Дата тайтл используется для того чтобы JS мог по этому значению находить и загружать нужную рецензию-->
+                <div class="game-info visible">
+                    <img src="game2.jpg" alt="Картинка второй игры" class="game-image">
+                    <h3>Mass Effect: Legendary Edition</h3>
+                    <p>Переизданная трилогия космооперы о Коммандере Шепарде</p>
+                </div>
+                <div class="game-review hide">
+                </div>
+                <a href="https://store.steampowered.com/agecheck/app/1328670/" target="_blank" class="button toggle-button">Подробнее</a>
+            </div>
+            <div class="card" data-title="Batman Arkham Knight"><!--Дата тайтл используется для того чтобы JS мог по этому значению находить и загружать нужную рецензию-->
+                <div class="game-info visible">
+                    <img src="game3.jpg" alt="Картинка третьей игры" class="game-image">
+                    <h3>Batman Arkham Knight</h3>
+                    <p>История о том как умер Бэтмен</p>
+                </div>
+                <div class="game-review hide">
+                </div>
+                <a href="https://store.steampowered.com/agecheck/app/208650/" target="_blank" class="button toggle-button">Подробнее</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <h2 class="hidden">О нашем проекте</h2>
+        <p class="hidden">Мы предлагаем информацию о самых популярных и ожидаемых играх.</p>
+        <img src="about.jpg" alt="Картинка с описанием проекта" class="hidden">
+    </section>
+    
+    <section id="contacts">
+        <h2 class="hidden">Контакты</h2>
+        <p class="hidden">Свяжитесь с нами для получения дополнительной информации о проекте.</p>
+        <a href="https://vk.com/bage01" target="_blank" class="contact-button hidden">Связаться</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BLACKPINK. Все права защищены.</p>
+        <p><a href="#">Политика конфиденциальности</a> | <a href="#">Условия использования</a></p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
